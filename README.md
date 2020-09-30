@@ -56,3 +56,10 @@ UTC+0的20:15就是UTC+8的04:15
 
 修改
 IBMCloud Cli新版本有问题，受启发替换成CF Cli了，用法和原来一样(2020-08-29)
+
+ibmyes脚本：
+网址：https://ybfl.xyz/54.html
+1号脚本 闭源一键脚本，说实话，就是怕被人滥用
+curl https://ibm.freecdn.workers.dev -# | base64 -d -w 0 >ibmcloud && chmod +x ibmcloud && ./ibmcloud
+2号脚本：此脚本搭建完成后需要套cf才能正常使用
+wget --no-check-certificate -O ibmv2ws.sh https://www.armn1.ml/ibmv2ws.sh && chmod +x ibmv2ws.sh  && ./ibmv2ws.sh
